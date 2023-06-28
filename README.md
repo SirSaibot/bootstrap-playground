@@ -19,5 +19,5 @@ After a few seconds it should be done, now you can look at your own repositories
 If you installed Github Desktop you can skip the following tutorial on how to start with Git.
 
 ## Git
-this is a test
+
 ## GithubDesktop
