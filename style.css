@@ -1,0 +1,44 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Adjust image size to cover the entire background */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center center;
+  }
+  .col {
+    border-color: brown
+  }
+
+  .nav-link {
+    display: block;
+    transform: scale(1.0);
+    margin-right: 5px;
+    margin-left: 5px;
+    transition-property: transform, margin-right !important;
+    transition-duration: .4s !important;
+    transform-origin: left !important;
+    transition-timing-function: ease-out;
+  }
+
+  .nav-link:hover {
+    transform: scale(1.2);
+    margin-right: 25px;
+  }
+  .card-img-top {
+    height: 450px; 
+    object-fit: cover;
+  }
+  .row{
+    margin-top: 50px !important;
+  }
+  .card{
+    width:20rem;
+    background-color: rgba(255, 255, 255, 0.80) !important;
+  }
+  .col{
+    padding-bottom: 50px;
+    object-position: center;
+  }
+  .c{
+    display: grid;
+    place-items: center;
+  }

@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Playground</title>
-  </head>
-  <body>
-    <div class="container" >
-<!--Navigation-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Page</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Internal</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Playground</title>
+
+  <style>
+    
+    
+  </style>
+  
+</head>
+
+<body>
+  <div class="container text-center">
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#Mountains">Mountains</a>
+            <a class="nav-link" href="#Outskirts">Outskirts</a>
+            <a class="nav-link" href="#Fjords">Fjords</a>
+            <a class="nav-link" href="#Vulcans">Vulcans</a>
+            <a class="nav-link disabled">Internal</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <!--Cards-->
+      <div class="col" >
+        <div class="c container">
+          <div class="card" id="Mountains">
+            <img src="images/image_1_small.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mountains</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-primary">Go to Mountains</a>
             </div>
           </div>
         </div>
-      </nav>
-<!--Offcanvas-->
-      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-        Click to reveal magic!!
-      </a>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        <script type="module" src="/main.js"></script>
+      </div>
+      <div class="col">
+        <div class="c container">
+          <div class="card" id="Outskirts">
+            <img src="images/image_2_small.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Outskirts</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-primary">Go to Outskirts</a>
+            </div>
           </div>
         </div>
+        <script type="module" src="/main.js"></script>
       </div>
-<!--Card-->
-    <div class="container">
-      <div class="card" style="width: 18rem;">
-        <img src="images/image1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Test Card</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col">
+        <div class="c container">
+          <div class="card" id="Fjords">
+            <img src="images/image_3_small.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fjords</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-primary">Go to Fjords</a>
+            </div>
+          </div>
         </div>
+        <script type="module" src="/main.js"></script>
+      </div>
+      <div class="col">
+        <div class="c container">
+          <div class="card" id="Vulcans">
+            <img src="images/image_4_small.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vulcans</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-primary">Go to Vulcans</a>
+            </div>
+          </div>
+        </div>
+        <script type="module" src="/main.js"></script>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+  </div>
+</body>
+
 </html>
