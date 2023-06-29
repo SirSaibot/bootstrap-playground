@@ -30,7 +30,7 @@ body{
     transition-duration: 1.0s;
   }
   .card-img-top:hover {
-    height: 550px; 
+    height: 525px; 
   }
   .row{
     margin-top: 50px !important;
@@ -42,7 +42,7 @@ body{
     transition-duration: 1.0s;
   }
   .card:hover{
-    width: 30rem;
+    width: 29rem;
   }
   .col{
     padding-bottom: 50px;
@@ -51,4 +51,7 @@ body{
   .c{
     display: grid;
     place-items: center;
+  }
+  .navbar-brand{
+    padding-left: 5px;
   }
