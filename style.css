@@ -55,3 +55,39 @@ body{
   .navbar-brand{
     padding-left: 5px;
   }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 9999;
+    border: 2px solid #757474;
+  }
+
+  .scroll-to-top.show {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  .scroll-to-top.clicked {
+    animation: flyAway 2.5s ease forwards;
+  }
+
+  @keyframes flyAway {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100vh) rotate(720deg);
+    }
+  }
