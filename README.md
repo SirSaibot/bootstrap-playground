@@ -1,7 +1,7 @@
 # Bootstrap Playground
 
 ## Host the Webpage locally
-Inorder to see the webpage working and with all function skip the Getting started part and go to the local Hosting part.
+Inorder to see the webpage working and with all function skip the Getting started part and go to the local Hosting part and download this current or this [sample repository](https://github.com/SirSaibot/bootstrap-playground) and use it instead of forking your own repository. 
 
 ## Getting started
 ### Installing needed programms
@@ -44,7 +44,7 @@ Press Enter and then type
 After a couple of minutes the installation should be complete. You can do the next step in the same window. From now on just do the next step, you dont need to do this step again.
 
 ### Start local hosting
-In the cmd window with path of your repository type:
+In the cmd window with path of your folder (where the index.html file is located), type:
 
 `npm run dev`
 
