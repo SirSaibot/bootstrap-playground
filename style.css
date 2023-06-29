@@ -1,7 +1,7 @@
 body{
     background-image: url('images/background.jpg');
-    background-size: cover; /* Adjust image size to cover the entire background */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover;
+    background-repeat: no-repeat; 
     background-position: center center;
   }
   .col {
@@ -26,13 +26,23 @@ body{
   .card-img-top {
     height: 450px; 
     object-fit: cover;
+    transition-property: height !important;
+    transition-duration: 1.0s;
+  }
+  .card-img-top:hover {
+    height: 550px; 
   }
   .row{
     margin-top: 50px !important;
   }
   .card{
-    width:20rem;
+    width:22rem;
     background-color: rgba(255, 255, 255, 0.80) !important;
+    transition-property: width !important;
+    transition-duration: 1.0s;
+  }
+  .card:hover{
+    width: 30rem;
   }
   .col{
     padding-bottom: 50px;
