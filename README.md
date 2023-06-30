@@ -1,9 +1,9 @@
 # Bootstrap Playground
 
 ## Host the Webpage locally
-Inorder to see the webpage working and with all function skip the Getting started part and go to the local Hosting part and download this current or this [sample repository](https://github.com/SirSaibot/bootstrap-playground) and use it instead of forking your own repository. 
+Inorder to see the webpage working and with all function skip the *Getting started* part and go to the [*local Hosting*](#local-hosting) part and download this current or this [sample repository](https://github.com/SirSaibot/bootstrap-playground) and use it instead of forking your own repository. 
 
-## Getting started
+## Getting started <a name="gettingstarted"></a>
 ### Installing needed programms
 
 First of you need to install some programms incase you don't already have them:
@@ -30,25 +30,25 @@ If you did not install Visual Studio you can skip the next step and open the fil
 Open VisualStudio and on the top left click on Explorer. There should be the option to open a folder. Click on that and the navigate towards the local path of the just created repository. Afterwards you should see some files and folders coming up on the left side. Open index.html and style.css by simply clicking on them. 
 Now you can freely edit the html and css file towards your liking. Inorder to see your work proceed to the next step.
 
-## local Hosting
+## local Hosting <a name="localhosting"></a>
 ### Configure node.js
 Navigate towards the repository and copy its path (e.g: "C:\Users\User\Documents\GitHub\bootstrap-playground"). Open cmd by pressing Win + r, typing "cmd" and pressing enter. In the just opend window type "cd " followed by the just copied path.
 Example:
 
 ![image of cmd](readme-img/cmd.png)
 
-Press Enter and then type 
+Press Enter and then type:
 
 `npm install`
 
-After a couple of minutes the installation should be complete. You can do the next step in the same window. From now on just do the next step, you dont need to do this step again.
+and press Enter. After a few minutes the installation should be complete. You can do the next step in the same window. From now on just do the next step, you dont need to do this step again.
 
 ### Start local hosting
 In the cmd window with path of your folder (where the index.html file is located), type:
 
 `npm run dev`
 
-and press Enter. Now there should be a url with localhost like this:
+and press Enter. Now there should be a URL with localhost like this:
 
 ![image of npm](readme-img/npm.png)
 
