@@ -1,6 +1,6 @@
 
-document.addEventListener("DOMContentLoaded", function() {
-  window.addEventListener("scroll", function() {
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
     if (window.scrollY > 100) {
       document.getElementById("scrollToTopButton").classList.add("show");
     } else {
@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  document.getElementById("scrollToTopButton").addEventListener("click", function() {
+  document.getElementById("scrollToTopButton").addEventListener("click", function () {
     document.getElementById("scrollToTopButton").classList.add("clicked");
     window.scrollTo({ top: 0, behavior: "smooth" });
 
-    setTimeout(function() {
+    setTimeout(function () {
       document.getElementById("scrollToTopButton").classList.remove("clicked");
     }, 1000);
   });
