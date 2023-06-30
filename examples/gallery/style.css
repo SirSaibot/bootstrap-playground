@@ -5,7 +5,7 @@ body {
   background-position: center center;
 }
 
-.nav-link {
+.custom-nav-link {
   display: block;
   transform: scale(1.0);
   margin-right: 5px;
@@ -21,7 +21,7 @@ body {
   margin-right: 25px;
 }
 
-.card-img-top {
+.custom-card-img-top {
   transform: scale(1);
   height: 450px;
   object-fit: cover;
@@ -30,16 +30,16 @@ body {
   transition-timing-function: ease, ease-in;
 }
 
-.card:hover>.zoom-container>.card-img-top {
+.custom-card:hover>.zoom-container>.custom-card-img-top {
   height: 525px;
   transform: scale(1.1);
 }
 
-.row {
+.custom-row {
   margin-top: 50px !important;
 }
 
-.card {
+.custom-card {
   width: 22rem;
   background-color: rgba(255, 255, 255, 0.80) !important;
   transition-property: width !important;
@@ -47,7 +47,7 @@ body {
   overflow: hidden;
 }
 
-.card:hover>.card-img-top {
+.custom-card:hover>.custom-card-img-top {
   height: 525px;
 }
 
@@ -56,11 +56,11 @@ body {
   overflow: hidden;
 }
 
-.card:hover {
+.custom-card:hover {
   width: 29rem;
 }
 
-.col {
+.custom-col {
   padding-bottom: 50px;
   object-position: center;
 }
@@ -103,6 +103,14 @@ body {
   animation: flyAway 2.5s ease forwards;
 }
 
+.tilt-card {
+  transition: transform 0.5s;
+}
+
+.tilt-card:hover {
+  transform: rotateX(-10deg) rotateY(10deg);
+}
+
 @keyframes flyAway {
   0% {
     transform: translateY(0);
@@ -111,12 +119,4 @@ body {
   100% {
     transform: translateY(-100vh) rotate(720deg);
   }
-}
-
-.tilt-card {
-  transition: transform 0.5s;
-}
-
-.tilt-card:hover {
-  transform: rotateX(-10deg) rotateY(10deg);
 }
