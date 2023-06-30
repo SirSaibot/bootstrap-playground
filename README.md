@@ -1,7 +1,7 @@
 # Bootstrap Playground
 
 ## Host the Webpage locally
-Inorder to see the webpage working and with all function skip the *Getting started* part and go to the [*local Hosting*](#local-hosting) part and download this current or this [sample repository](https://github.com/SirSaibot/bootstrap-playground) and use it instead of forking your own repository. 
+Inorder to see the webpage working and with all function skip the *Getting started* part and go to the [*local Hosting*](#local-hosting) part and download this [empty](https://github.com/stetsche/bootstrap-playground) or this [sample repository](https://github.com/SirSaibot/bootstrap-playground) and use it instead of forking your own repository. 
 
 ## Getting started <a name="gettingstarted"></a>
 ### Installing needed programms
